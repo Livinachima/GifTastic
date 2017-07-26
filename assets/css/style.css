@@ -1,14 +1,31 @@
 body {
     background: url("../images/background.jpg") no-repeat center center fixed;
+    background-color: #cccccc;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: #cccccc;
 }
 
 h1 {
-    font-family: Lobster cursive;
+    font-family: cursive Lobster;
+}
+
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.form-control {
+    width: 35%;
+}
+
+
+.btn-primary {
+    margin-left: 10px;
+    background: rgb(255,0,255);
+    color: blue;
 }
 
 .ratings {
@@ -17,15 +34,9 @@ h1 {
     font-size: 18px;
 }
 
-h1 {
+#add {
+    font-size: 20px;
     color: white;
-    font-size: 45px;
-}
-
-.btn-primary {
-    margin-left: 10px;
-    background: rgb(255,0,255);
-    color: blue;
 }
 
 @media screen and (max-width: 480px) {
@@ -38,11 +49,4 @@ h1 {
     }
 }
 
-.form-control {
-    width: 30%;
-}
 
-#add {
-    font-size: 20px;
-    color: white;
-}
